@@ -1,0 +1,98 @@
+{
+  "AppIcons" : {
+
+  },
+  "FormatVersion" : 1,
+  "WhitelistedFiles" : {
+    "victorious\/Images.xcassets\/Heart10.imageset\/heart_10.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart3.imageset\/heart_03.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart2.imageset\/heart_02.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart1.imageset\/heart_01.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato13.imageset\/tomato_13.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart0.imageset\/heart_00.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato2.imageset\/tomato_02.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato3.imageset\/tomato_03.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato4.imageset\/tomato_04.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato14.imageset\/tomato_14.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart4.imageset\/heart_04.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato9.imageset\/tomato_09.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart8.imageset\/heart_08.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart7.imageset\/heart_07.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato10.imageset\/tomato_10.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart5.imageset\/heart_05.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato0.imageset\/tomato_00.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart6.imageset\/heart_06.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato1.imageset\/tomato_01.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato11.imageset\/tomato_11.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart9.imageset\/heart_09.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato7.imageset\/tomato_07.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato8.imageset\/tomato_08.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato15.imageset\/tomato_15.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart12.imageset\/heart_12.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato5.imageset\/tomato_05.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato16.imageset\/tomato_16.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato6.imageset\/tomato_06.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Heart11.imageset\/heart_11.png" : {
+      "WhitelistedUsed" : true
+    },
+    "victorious\/Images.xcassets\/Tomato12.imageset\/tomato_12.png" : {
+      "WhitelistedUsed" : true
+    }
+  }
+}
