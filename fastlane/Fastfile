@@ -7,10 +7,10 @@ default_platform :ios
 lane :beta do
   gym(
     scheme: “release-victorious”,
-    workspace: “/Users/michaelmontgomery/Desktop/Ruby /fastlane/victorious.xcworkspace”,
+    workspace: “/Users/michaelmontgomery/Desktop/Ruby/fastlane/victorious.xcworkspace”,
     export_method: "app-store”,
     clean: “true”,
-    output_directory:”/Users/michaelmontgomery/Desktop/Ruby /fastlane/ipaFiles”,
+    output_directory:”/Users/michaelmontgomery/Desktop/Ruby/fastlane/ipaFiles”,
   )
 
   # upload to Testflight
