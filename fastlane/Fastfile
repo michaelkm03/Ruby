@@ -1,22 +1,38 @@
+FASTLANE_DIRECTORY = File.dirname(__FILE__)
+
 update_fastlane
 fastlane_version "1.109.0"
-generated_fastfile_id "d97ea7fd-6d42-45e3-951b-51b933bb8116"
 
 default_platform :ios
 
-lane :beta do
+def apply_config(build_name:)
+   sh "cd ../../ && ./build-scripts/apply-config.sh #{build_name}
+end
+
+# def clean_build_products(icon_path: nil)
+ # clean_build_artifacts
+ # `git checkout #{FASTLANE_DIRECTORY}/../AppSpecific`
+ # `git checkout #{FASTLANE_DIRECTORY}/../fastlane/metadata/`
+ # `rm #{icon_path}` if icon_path && File.exists?(icon_path)
+# end
+
+lane :appstore do
+  # Deploying a build to the Apple AppStore
+  match(git_url: "https://github.com/Victorious/Certificates.git")
+  apply_config(build_name: "musicla")
+  
   gym(
-    scheme: “release-victorious”,
-    workspace: “/Users/michaelmontgomery/Desktop/Ruby/fastlane/victorious.xcworkspace”,
-    export_method: "app-store”,
-    clean: “true”,
-    output_directory:”/Users/michaelmontgomery/Desktop/Ruby/fastlane/ipaFiles”,
+      clean: true,
+      scheme: “release-victorious",
+      output_name: "outputName",
+      workspace: "/Users/michaelmontgomery/Desktop/Ruby/fastlane/victorious/victorious.xcworkspace",
+      output_directory: "/Users/michaelmontgomery/Desktop/Ruby/fastlane/ipaFiles"
+)
+
+
+# upload to Testflight
+    pilot(
+      skip_waiting_for_build_processing: true,
+      app_identifier: “com.getvictorious.musicla“
   )
-
-  # upload to Testflight
-  pilot(skip_waiting_for_build_processing: true)
-
-  # slack(
-  #   slack_url: "https://hooks.slack.com/services/IDS"
-  # )
 end
